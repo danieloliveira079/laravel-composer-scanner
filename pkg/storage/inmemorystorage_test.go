@@ -12,10 +12,13 @@ func TestInMemoryStorage_Add(t *testing.T) {
 
 	storage := NewInMemoryStorage()
 	storage.Add(dummyVulnerability)
-	stored := storage.GetAll()
 
-	require.NotEmpty(t, stored)
-	require.Equal(t, true, reflect.DeepEqual(dummyVulnerability, stored[0]))
+	t.Run("Should Add Vulnerability to Storage", func(t *testing.T) {
+		stored := storage.GetAll()
+
+		require.NotEmpty(t, stored)
+		require.Equal(t, true, reflect.DeepEqual(dummyVulnerability, stored[0]))
+	})
 }
 
 func TestInMemoryStorage_GetAll(t *testing.T) {
@@ -42,8 +45,9 @@ func TestInMemoryStorage_GetAll(t *testing.T) {
 		storage.Add(v)
 	}
 
-	stored := storage.GetAll()
-
-	require.NotEmpty(t, stored)
-	require.Equal(t, len(stored), len(dummyVulnerabilities))
+	t.Run("Should Return Two Vulnerabilities", func(t *testing.T) {
+		stored := storage.GetAll()
+		require.NotEmpty(t, stored)
+		require.Equal(t, len(stored), len(dummyVulnerabilities))
+	})
 }
