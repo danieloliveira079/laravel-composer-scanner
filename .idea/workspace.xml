@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c51cf355-2d30-4732-9899-d53b6722ab13" name="Default Changelist" comment="" />
+    <list default="true" id="c51cf355-2d30-4732-9899-d53b6722ab13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/storage/inmemorystorage.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/storage/inmemorystorage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/storage/inmemorystorage_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/storage/inmemorystorage_test.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +43,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -55,6 +63,22 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="TestSnykio_ScrapeURI/Should_Scrape_and_Store_Vulnerabilities in github.com/danieloliveira079/php-composer-scanner/pkg/scrapper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="php-composer-scanner" />
+      <working_directory value="$PROJECT_DIR$/pkg/scrapper" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/danieloliveira079/php-composer-scanner/pkg/scrapper" />
+      <pattern value="^TestSnykio_ScrapeURI$/^Should_Scrape_and_Store_Vulnerabilities$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestSnykio_ScrapeURI/Should_Scrape_and_Store_Vulnerabilities in github.com/danieloliveira079/php-composer-scanner/pkg/scrapper" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -68,5 +92,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/php_composer_scanner$TestSnykio_ScrapeURI_Should_Scrape_and_Store_Vulnerabilities_in_github_com_danieloliveira079_php_composer_scanner_pkg_scrapper.out" NAME="TestSnykio_ScrapeURI/Should_Scrape_and_Store_Vulnerabilities in github.com/danieloliveira079/php-composer-scanner/pkg/scrapper Coverage Results" MODIFIED="1566578334640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
